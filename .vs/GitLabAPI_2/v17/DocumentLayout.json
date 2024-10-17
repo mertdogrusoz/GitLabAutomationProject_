@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabapi_2\\entitylayer\\nugetpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\nugetpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabapi_2\\entitylayer\\nugetpackageupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\nugetpackageupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabapi_2\\gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,15 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NuGetPackage.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\EntityLayer\\NuGetPackage.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\NuGetPackage.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\EntityLayer\\NuGetPackage.cs",
+              "RelativeToolTip": "EntityLayer\\NuGetPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:23:57.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NuGetPackageUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\EntityLayer\\NuGetPackageUpdateRequest.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\NuGetPackageUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\EntityLayer\\NuGetPackageUpdateRequest.cs",
+              "RelativeToolTip": "EntityLayer\\NuGetPackageUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:23:56.133Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GitLabService.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\Services\\GitLabService.cs",
               "RelativeDocumentMoniker": "Services\\GitLabService.cs",
@@ -34,18 +68,17 @@
               "RelativeToolTip": "Services\\GitLabService.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAswFYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:20:04.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T11:20:04.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\GitLabAPI_2\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\GroupController.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\GitLabAPI_2\\Controllers\\GroupController.cs",
               "RelativeToolTip": "GitLabAPI_2\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCEAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T06:09:14.375Z",
               "EditorCaption": ""
