@@ -1,5 +1,42 @@
 [
   {
+    "ContainingType": "GitLabAPI.Controllers.BranchController",
+    "Method": "GetBranches",
+    "RelativePath": "api/Branch/projects/{id}/branches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitLabAPI.Controllers.BranchController",
+    "Method": "CreateBranch",
+    "RelativePath": "api/Branch/projects/{id}/createbranch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "EntityLayer.CreateBranchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GitLabAPI.Controllers.GroupController",
     "Method": "GetGroups",
     "RelativePath": "api/Group/groups",

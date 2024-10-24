@@ -18,12 +18,12 @@ namespace GitLabAPI.Controllers
         public GroupController(GitLabService gitLabService, CsprojReader csprojReader)
         {
             _gitLabService = gitLabService;
-            _csprojReader = csprojReader    ;
+            _csprojReader = csprojReader;
         }
 
         [HttpGet("groups")]
         public async Task<IActionResult> GetGroups()
-        {
+        { 
             var groups = await _gitLabService.GetGroups();
             return Ok(groups);
         }
@@ -85,7 +85,7 @@ namespace GitLabAPI.Controllers
         {
             if (string.IsNullOrEmpty(projectName) || string.IsNullOrEmpty(packageId) || string.IsNullOrEmpty(version))
             {
-                return BadRequest("Project name, package ID, and version must be provided.");
+                return BadRequest("!");
             }
 
            

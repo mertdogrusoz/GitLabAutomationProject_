@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GitLabAPI_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b96ad814b0f816c55b7e6c08d1b0aec9a619f24f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+601605c51338be3883f5d158a3a5eee694d4531f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GitLabAPI_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GitLabAPI_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

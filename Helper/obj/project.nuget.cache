@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B6ThrycZzk4=",
+  "dgSpecHash": "ICXe5sNsaaU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yigit\\source\\repos\\GitLabAPI_2\\Helper\\Helper.csproj",
+  "projectFilePath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yigit\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
