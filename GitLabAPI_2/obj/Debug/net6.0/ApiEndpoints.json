@@ -37,6 +37,53 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GitLabAPI_2.Controllers.CommitController",
+    "Method": "Index",
+    "RelativePath": "api/Commit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitLabAPI_2.Controllers.CommitController",
+    "Method": "GetCommites",
+    "RelativePath": "api/Commit/project/{projectId}/commites",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitLabAPI_2.Controllers.CommitController",
+    "Method": "CreateCommites",
+    "RelativePath": "api/Commit/project/{projectId}/createcommit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "GitLabAPI_2.Controllers.CreateCommitRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GitLabAPI.Controllers.GroupController",
     "Method": "GetGroups",
     "RelativePath": "api/Group/groups",

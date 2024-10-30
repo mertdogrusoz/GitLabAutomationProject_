@@ -39,6 +39,34 @@ namespace Services
           
            
         }
+        public async Task<Branches> CreateBranchesAsync(int id, string branchName, string refName)
+        {
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                var apiUrl = $"{_apiUrl}/projects/{id}/repository/branches";
+
+                var requestContent = new FormUrlEncodedContent(new[]
+                {
+            new KeyValuePair<string, string>("branch", branchName),
+            new KeyValuePair<string, string>("ref", refName),
+        });
+
+                var response = await client.PostAsync(apiUrl, requestContent);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<Branches>(json);
+                }
+                else
+                {
+                    Console.WriteLine($"API isteği başarısız oldu: {response.StatusCode}");
+                    return null; // Başarısız durumda null döndürüyoruz
+                }
+            }
+        }
+
         public async Task<Branches> CreateBranch(int id,string branchName,string refName)
         {
             using (var client = new HttpClient())
@@ -69,11 +97,8 @@ namespace Services
 
             }
 
-
-         
-
         }
-
+      
 
     }
 }

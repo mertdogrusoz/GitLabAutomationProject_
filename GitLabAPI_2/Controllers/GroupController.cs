@@ -80,6 +80,8 @@ namespace GitLabAPI.Controllers
 
             return Ok(allPackagesWithProject);
         }
+
+
         [HttpPut("update-package-version")]
         public IActionResult UpdatePackageVersion([FromQuery] string projectName, [FromQuery] string packageId, [FromQuery] string version)
         {
@@ -91,13 +93,14 @@ namespace GitLabAPI.Controllers
            
             var projectFilePath = Path.Combine(_baseProjectPath, projectName, projectName, $"{projectName}.csproj");
 
-          
-            var packageUpdates = new Dictionary<string, string>
-    {
-        { packageId, version }
-    };
 
-          
+            var packageUpdates = new Dictionary<string, string>
+            {
+                {packageId,version }
+            };
+
+
+
             var isUpdated = _gitLabService.UpdatePackageVersion(projectFilePath, packageUpdates);
 
             if (isUpdated)

@@ -34,7 +34,8 @@ namespace GitLabAPI.Controllers
                 return BadRequest("Branch name and ref are required.");
             }
 
-            var branch = await _branchService.CreateBranch(id, request.Branch, request.Ref);
+
+            var branch = await _branchService.CreateBranchesAsync(id, request.Branch, request.Ref);
 
             if (branch == null)
             {
@@ -42,8 +43,7 @@ namespace GitLabAPI.Controllers
             }
 
             return Ok(branch);
-
-
         }
+
     }
 }

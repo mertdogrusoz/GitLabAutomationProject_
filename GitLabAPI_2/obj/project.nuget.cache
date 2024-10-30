@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5cU86TwjAg=",
+  "dgSpecHash": "J+re752Rbho=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
+  "projectFilePath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yigit\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\yigit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
