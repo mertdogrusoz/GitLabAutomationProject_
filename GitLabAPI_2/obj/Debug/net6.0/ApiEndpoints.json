@@ -30,7 +30,7 @@
       },
       {
         "Name": "request",
-        "Type": "EntityLayer.CreateBranchRequest",
+        "Type": "EntityLayer.BranchAndCommit",
         "IsRequired": true
       }
     ],
@@ -152,6 +152,22 @@
         "Name": "version",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitLabAPI_2.Controllers.MergeController",
+    "Method": "GetMerges",
+    "RelativePath": "api/Merge/{id}/merges",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

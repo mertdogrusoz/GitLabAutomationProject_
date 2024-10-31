@@ -27,7 +27,7 @@ namespace GitLabAPI.Controllers
 
 
         [HttpPost("projects/{id}/createbranch")]
-        public async Task<IActionResult> CreateBranch(int id, [FromBody] CreateBranchRequest request)
+        public async Task<IActionResult> CreateBranch(int id, [FromBody] BranchAndCommit request)
         {
             if (request == null || string.IsNullOrWhiteSpace(request.Branch) || string.IsNullOrWhiteSpace(request.Ref))
             {
@@ -44,6 +44,7 @@ namespace GitLabAPI.Controllers
 
             return Ok(branch);
         }
+       
 
     }
 }

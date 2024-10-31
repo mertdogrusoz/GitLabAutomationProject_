@@ -62,7 +62,7 @@ namespace Services
                 else
                 {
                     Console.WriteLine($"API isteği başarısız oldu: {response.StatusCode}");
-                    return null; // Başarısız durumda null döndürüyoruz
+                    return null; 
                 }
             }
         }

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AWSSDK/2.3.55.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -305,6 +318,28 @@
     }
   },
   "libraries": {
+    "AWSSDK/2.3.55.2": {
+      "sha512": "zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "type": "package",
+      "path": "awssdk/2.3.55.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.2.3.55.2.nupkg.sha512",
+        "awssdk.nuspec",
+        "lib/net35/AWSSDK.dll",
+        "lib/net35/AWSSDK.pdb",
+        "lib/net45/AWSSDK.dll",
+        "lib/net45/AWSSDK.pdb",
+        "lib/portable-wpa+netcore45/AWSSDK.dll",
+        "lib/windows8/AWSSDK.dll",
+        "lib/windowsphone8/AWSSDK.dll",
+        "tools/account-management.ps1",
+        "tools/net35/install.ps1",
+        "tools/net45/install.ps1"
+      ]
+    },
     "Castle.Core/5.1.1": {
       "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "type": "package",
@@ -930,6 +965,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AWSSDK >= 2.3.55.2",
       "EntityLayer >= 1.0.0",
       "Helper >= 1.0.0",
       "Moq >= 4.20.72",
@@ -948,9 +984,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
+      "projectUniqueName": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
       "projectName": "GitLabAPI_2",
-      "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
+      "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\GitLabAPI_2\\GitLabAPI_2.csproj",
       "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\obj\\",
       "projectStyle": "PackageReference",
@@ -974,14 +1010,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
             },
-            "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {
-              "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj"
+            "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {
+              "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj"
             },
-            "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\Services.csproj"
+            "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Services\\Services.csproj"
             }
           }
         }
@@ -1001,6 +1037,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AWSSDK": {
+            "target": "Package",
+            "version": "[2.3.55.2, )"
+          },
           "Moq": {
             "target": "Package",
             "version": "[4.20.72, )"
@@ -1052,6 +1092,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AWSSDK 2.3.55.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

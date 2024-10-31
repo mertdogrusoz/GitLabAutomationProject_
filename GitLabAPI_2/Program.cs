@@ -25,6 +25,7 @@ builder.Services.AddSingleton<GitLabService>();
 builder.Services.AddSingleton<CsprojReader>();
 builder.Services.AddSingleton<BranchService>();
 builder.Services.AddSingleton<CommitService>();
+builder.Services.AddSingleton<MergeService>();
 builder.Services.AddLogging();
 builder.Services.AddHttpClient();
 
