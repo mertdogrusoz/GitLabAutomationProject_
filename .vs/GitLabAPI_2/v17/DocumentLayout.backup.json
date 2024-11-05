@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\commitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\commitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\gitlabservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\gitlabservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\entitylayer\\commitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\commitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\entitylayer\\commites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\commites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\entitylayer\\branches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\branches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\entitylayer\\nugetpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5401066-2CD3-4DA6-BC7F-3FB55B694D98}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\nugetpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,170 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GitLabService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
-              "RelativeDocumentMoniker": "Services\\GitLabService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
-              "RelativeToolTip": "Services\\GitLabService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:26:26.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommitService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
-              "RelativeDocumentMoniker": "Services\\CommitService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
-              "RelativeToolTip": "Services\\CommitService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:26:23.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BranchService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\BranchService.cs",
-              "RelativeDocumentMoniker": "Services\\BranchService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\BranchService.cs",
-              "RelativeToolTip": "Services\\BranchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:26:19.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommitController.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\CommitController.cs",
-              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\CommitController.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\CommitController.cs",
-              "RelativeToolTip": "GitLabAPI_2\\Controllers\\CommitController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:55:13.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BranchController.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\BranchController.cs",
-              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\BranchController.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\BranchController.cs",
-              "RelativeToolTip": "GitLabAPI_2\\Controllers\\BranchController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:55:10.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MergeService.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
               "RelativeDocumentMoniker": "Services\\MergeService.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
               "RelativeToolTip": "Services\\MergeService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:30:18.042Z",
+              "WhenOpened": "2024-11-05T08:25:53.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MergeController.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\MergeController.cs",
               "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\MergeController.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\MergeController.cs",
               "RelativeToolTip": "GitLabAPI_2\\Controllers\\MergeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:27:44.264Z",
+              "WhenOpened": "2024-11-05T08:25:25.335Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "GitLabAPI_2\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:55:15.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Program.cs",
-              "RelativeDocumentMoniker": "GitLabAPI_2\\Program.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Program.cs",
-              "RelativeToolTip": "GitLabAPI_2\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:55:19.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CommitResponse.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\CommitResponse.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\CommitResponse.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\CommitResponse.cs",
-              "RelativeToolTip": "EntityLayer\\CommitResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:55:07.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Commites.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\Commites.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Commites.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\Commites.cs",
-              "RelativeToolTip": "EntityLayer\\Commites.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:54:59.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Branches.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\Branches.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Branches.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\Branches.cs",
-              "RelativeToolTip": "EntityLayer\\Branches.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:54:53.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NuGetPackage.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\NuGetPackage.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\NuGetPackage.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\NuGetPackage.cs",
-              "RelativeToolTip": "EntityLayer\\NuGetPackage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:54:47.012Z"
             }
           ]
         }

@@ -111,6 +111,27 @@
   },
   {
     "ContainingType": "GitLabAPI.Controllers.GroupController",
+    "Method": "GetXamlContent",
+    "RelativePath": "api/Group/groups/{groupId}/projects/{projectName}/xaml",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "groupId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitLabAPI.Controllers.GroupController",
     "Method": "GetNuGetPackagesByGroupId",
     "RelativePath": "api/Group/groups/{groupId}/projects/packages",
     "HttpMethod": "GET",

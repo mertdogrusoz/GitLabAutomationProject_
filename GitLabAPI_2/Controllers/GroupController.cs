@@ -24,7 +24,7 @@ namespace GitLabAPI.Controllers
         [HttpGet("groups")]
         public async Task<IActionResult> GetGroups()
         { 
-            var groups = await _gitLabService.GetGroups();
+            var groups = await _gitLabService.GetGroups();  
             return Ok(groups);
         }
 
@@ -60,7 +60,7 @@ namespace GitLabAPI.Controllers
 
                 foreach (var package in packages)
                 {
-                  
+                                                                                                                            
                     allPackagesWithProject.Add(new NuGetPackage
                     {
                         ProjectName = project.name,
@@ -97,7 +97,7 @@ namespace GitLabAPI.Controllers
             var packageUpdates = new Dictionary<string, string>
             {
                 {packageId,version }
-            };
+            };  
 
 
 
@@ -110,6 +110,21 @@ namespace GitLabAPI.Controllers
 
             return NotFound("Package or project file not found, or version could not be updated.");
         }
+
+
+        [HttpGet("groups/{groupId}/projects/{projectName}/xaml")]
+        public IActionResult GetXamlContent(string projectName)
+        {
+            var projectFilePath = Path.Combine(_baseProjectPath, projectName, projectName, $"{projectName}.csproj");
+            if (!System.IO.File.Exists(projectFilePath))
+            {
+                return NotFound("Project file not found.");
+            }
+
+            var xamlContent = System.IO.File.ReadAllText(projectFilePath);
+            return Ok(xamlContent);
+        }
+
 
     }
 }

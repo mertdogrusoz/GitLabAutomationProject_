@@ -22,6 +22,14 @@ namespace GitLabAPI_2.Controllers
             var merges = await _mergeService.GetMergeRequest(id);
             return Ok(merges);
         }
+
+
+        [HttpPost()]
+        public async Task<IActionResult> CreateMerge(int id)
+        {
+            var newMerge = await _mergeService.CreateMerge(id);
+            return Ok(newMerge);
+        }
        
 
     }

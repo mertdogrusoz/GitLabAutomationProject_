@@ -14,6 +14,7 @@ namespace Services
         private readonly string _accessToken = "glpat-nMJKFjgP4BQfpJyWz4xH";
         private readonly string _apiUrl = "http://localhost/api/v4";
         
+
         public async Task<List<Branches>> getBranch(int id)
         {
             using (var client = new HttpClient())
@@ -24,9 +25,8 @@ namespace Services
                 if(response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
-                    return JsonConvert.DeserializeObject <List<Branches>>(json);
-
-                    
+                    return JsonConvert.DeserializeObject<List<Branches>>(json);
+  
                 }
                 else
                 {
@@ -36,7 +36,6 @@ namespace Services
 
 
             }
-          
            
         }
         public async Task<Branches> CreateBranchesAsync(int id, string branchName, string refName)
@@ -48,9 +47,9 @@ namespace Services
 
                 var requestContent = new FormUrlEncodedContent(new[]
                 {
-            new KeyValuePair<string, string>("branch", branchName),
-            new KeyValuePair<string, string>("ref", refName),
-        });
+                     new KeyValuePair<string, string>("branch", branchName),
+                     new KeyValuePair<string, string>("ref", refName),
+                });
 
                 var response = await client.PostAsync(apiUrl, requestContent);
 
@@ -98,6 +97,44 @@ namespace Services
             }
 
         }
+        public async Task<Branches> DeleteBranch(int id,string branchName)
+        {
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                var apiUrl = $"{_apiUrl}/projects/:id/repository/merged_branches";
+                var requestContent = new FormUrlEncodedContent(new[]
+                {
+                    new KeyValuePair<string,string>("branch",branchName)
+
+                });
+
+                var response = await client.DeleteAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                  
+                    if(json == null)
+                    {
+                        Console.WriteLine("json verisi boş");
+                    }
+
+                    return JsonConvert.DeserializeObject<Branches>(json);
+
+
+                }
+                else
+                {
+                    Console.WriteLine($"Api isteği başarısız oldu " + response.StatusCode);
+                    return null;
+                }
+
+            }
+
+        }
+
+       
       
 
     }
