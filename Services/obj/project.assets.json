@@ -81,7 +81,7 @@
       "projectName": "Services",
       "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Services\\obj\\",
+      "outputPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

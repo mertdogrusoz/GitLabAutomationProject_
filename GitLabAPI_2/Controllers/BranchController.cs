@@ -25,6 +25,14 @@ namespace GitLabAPI.Controllers
 
         }
 
+        [HttpGet("projects/{id}/{branchName}")]
+        public async Task<IActionResult> GetBranchByBranchName(int id, string branchName)
+        {
+            var branch = await  _branchService.GetBranchByBranchName(id, branchName);
+            return Ok(branch);
+
+        }
+
 
         [HttpPost("projects/{id}/createbranch")]
         public async Task<IActionResult> CreateBranch(int id, [FromBody] BranchAndCommit request)
@@ -33,7 +41,6 @@ namespace GitLabAPI.Controllers
             {
                 return BadRequest("Branch name and ref are required.");
             }
-
 
             var branch = await _branchService.CreateBranchesAsync(id, request.Branch, request.Ref);
 
@@ -44,6 +51,8 @@ namespace GitLabAPI.Controllers
 
             return Ok(branch);
         }
+
+      
 
         
        

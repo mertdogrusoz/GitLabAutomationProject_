@@ -8,8 +8,8 @@ using System.Xml.Linq;
 
 public class GitLabService
 {
-    private readonly string _accessToken = "glpat-nMJKFjgP4BQfpJyWz4xH"; // GitLab erişim token'ı
-    private readonly string _apiUrl = "http://localhost/api/v4/groups";
+    private readonly string _accessToken = "glpat-VzAHu_nzzdbQoCsrBNMV"; // GitLab erişim token'ı
+    private readonly string _apiUrl = "http://localhost:8080/api/v4/groups";
 
     public async Task<List<GitLabGroup>> GetGroups()
     {

@@ -85,6 +85,8 @@ namespace GitLabAPI.Controllers
         [HttpPut("update-package-version")]
         public IActionResult UpdatePackageVersion([FromQuery] string projectName, [FromQuery] string packageId, [FromQuery] string version)
         {
+
+            
             if (string.IsNullOrEmpty(projectName) || string.IsNullOrEmpty(packageId) || string.IsNullOrEmpty(version))
             {
                 return BadRequest("!");

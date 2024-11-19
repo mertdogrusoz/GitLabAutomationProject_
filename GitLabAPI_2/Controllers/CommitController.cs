@@ -1,5 +1,6 @@
 ﻿using EntityLayer;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -33,8 +34,7 @@ namespace GitLabAPI_2.Controllers
             return Ok(commits);
         }
 
-
-        [HttpPost("project/{projectId}/createcommit")]
+        [HttpPost("project/{projectId}/Createcommit")]
         public async Task<IActionResult> CreateCommites(int projectId, [FromBody] CreateCommitRequest request)
         {
             if (request == null || string.IsNullOrWhiteSpace(request.Branch) || string.IsNullOrWhiteSpace(request.CommitMessage))
@@ -42,20 +42,49 @@ namespace GitLabAPI_2.Controllers
                 return BadRequest("Branch name and commit message are required.");
             }
 
-            var commit = await _commitService.CreateCommitAsync(projectId, request.Branch, request.CommitMessage, request.Actions);
+            var commit = await _commitService.CreateCommit(projectId, request.Branch, request.CommitMessage, request.Actions);
             if (commit == null)
             {
                 return NotFound("Commit could not be created.");
             }
             return Ok(commit);
         }
+
+        [HttpPost("api/data")]
+        public async Task<IActionResult> MyModel([FromBody] ModelEntity entity)
+        {
+            if(entity == null)
+            {
+                return BadRequest("Geçersiz veri");
+            }
+            
+            return Ok($"Received: {entity.Name},{ entity.Age}");
+
+        }
+        [HttpPost("api/query")]
+        public async Task<IActionResult> MyModelQuery([FromQuery] string Name, [FromQuery] int Age)
+        {
+            if(string.IsNullOrEmpty(Name) || Age <= 0)
+            {
+                Console.WriteLine("Geçersiz parametre");
+
+            }
+            return Ok($"Received name: {Name}, age: {Age}");
+        }
+       
+
     }
 
-  
+
     public class CreateCommitRequest
     {
         public string Branch { get; set; }
         public string CommitMessage { get; set; }
         public List<ActionItem> Actions { get; set; } 
+    }
+    public class ModelEntity
+    {
+        public string Name  { get; set; }
+        public int Age { get; set; }
     }
 }

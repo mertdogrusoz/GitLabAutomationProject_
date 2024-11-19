@@ -11,8 +11,8 @@ namespace Services
 {
     public class BranchService
     {
-        private readonly string _accessToken = "glpat-nMJKFjgP4BQfpJyWz4xH";
-        private readonly string _apiUrl = "http://localhost/api/v4";
+        private readonly string _accessToken = "glpat-VzAHu_nzzdbQoCsrBNMV"; // GitLab erişim token'ı
+        private readonly string _apiUrl = "http://localhost:8080/api/v4";
         
 
         public async Task<List<Branches>> getBranch(int id)
@@ -37,6 +37,30 @@ namespace Services
 
             }
            
+        }
+        public async Task<Branches> GetBranchByBranchName(int id, string branchName)
+        {
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                var apiUrl = $"{_apiUrl}/projects/{id}/repository/branches/{branchName}";
+                var response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<Branches>(json);
+
+                }
+                else
+                {
+                    Console.WriteLine($"Api isteği başarısız oldu :{response.StatusCode}");
+                    return null;
+                }
+
+
+            }
+
         }
         public async Task<Branches> CreateBranchesAsync(int id, string branchName, string refName)
         {
@@ -133,9 +157,5 @@ namespace Services
             }
 
         }
-
-       
-      
-
     }
 }

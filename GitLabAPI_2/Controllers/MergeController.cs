@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EntityLayer;
+using Microsoft.AspNetCore.Mvc;
 using Services;
+using System.Security.Cryptography.X509Certificates;
 
 namespace GitLabAPI_2.Controllers
 {
@@ -16,21 +18,42 @@ namespace GitLabAPI_2.Controllers
             _csprojReader = csprojReader;
         }
 
+
         [HttpGet("{id}/merges")]
         public async Task<IActionResult> GetMerges(int id)
         {
             var merges = await _mergeService.GetMergeRequest(id);
             return Ok(merges);
+            
         }
 
-
-        [HttpPost()]
-        public async Task<IActionResult> CreateMerge(int id)
+        public async Task<IActionResult> GetOpenMerges(int id)
         {
-            var newMerge = await _mergeService.CreateMerge(id);
-            return Ok(newMerge);
+            return Ok();
+
         }
-       
+
+        [HttpPost("{projectId}/merge-request")]
+        public async Task<IActionResult> CreateMerge(int projectId, [FromBody] MergeRequest request)
+        {
+            // Gelen istekte sourceBranch, targetBranch ve title bilgileri zorunludur
+            if (request == null || string.IsNullOrEmpty(request.SourceBranch) || string.IsNullOrEmpty(request.TargetBranch) || string.IsNullOrEmpty(request.Title))
+            {
+                return BadRequest("Source branch, target branch, and title are required.");
+            }
+
+          
+            var mergeRequest = await _mergeService.CreateMerge(projectId, request.SourceBranch, request.TargetBranch, request.Title);
+
+            if (mergeRequest == null)
+            {
+                return BadRequest("Merge request could not be created.");
+
+            }
+
+            return Ok(mergeRequest);
+        }
+        
 
     }
 }
