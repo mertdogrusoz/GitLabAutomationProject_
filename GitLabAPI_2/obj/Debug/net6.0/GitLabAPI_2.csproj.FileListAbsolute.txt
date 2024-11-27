@@ -50,6 +50,7 @@ C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\Wodsoft.DotNet40.Runtime.dll
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\xunit.abstractions.dll
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\xunit.assert.dll
 C:\Users\yigit\source\repos\GitLabAutomationProject2\GitLabAPI_2\bin\Debug\net6.0\xunit.core.dll

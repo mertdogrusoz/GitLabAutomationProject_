@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\mergecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\view\\searchterm.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\view\\searchterm.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\gitlabservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\gitlabservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\commitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\commitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\commitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC6E108-7E91-47A8-BBE8-6B9AE53C2B0F}|GitLabAPI_2\\GitLabAPI_2.csproj|solutionrelative:gitlabapi_2\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|c:\\users\\yigit\\source\\repos\\gitlabautomationproject2\\services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96209172-3686-4FB6-898A-81EE6CE59546}|Services\\Services.csproj|solutionrelative:services\\mergeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,64 +66,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GitLabService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
-              "RelativeDocumentMoniker": "Services\\GitLabService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
-              "RelativeToolTip": "Services\\GitLabService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Program.cs",
+              "RelativeDocumentMoniker": "GitLabAPI_2\\Program.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Program.cs",
+              "RelativeToolTip": "GitLabAPI_2\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:12:21.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommitService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
-              "RelativeDocumentMoniker": "Services\\CommitService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
-              "RelativeToolTip": "Services\\CommitService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:12:20.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "GitLabAPI_2\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:12:18.064Z"
+              "WhenOpened": "2024-11-27T06:14:58.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MergeService.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
-              "RelativeDocumentMoniker": "Services\\MergeService.cs",
-              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
-              "RelativeToolTip": "Services\\MergeService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAEwC0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:05:48.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MergeController.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\MergeController.cs",
               "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\MergeController.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\MergeController.cs",
               "RelativeToolTip": "GitLabAPI_2\\Controllers\\MergeController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:23:13.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T06:14:53.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "searchTerm.html",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\View\\searchTerm.html",
+              "RelativeDocumentMoniker": "GitLabAPI_2\\View\\searchTerm.html",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\View\\searchTerm.html",
+              "RelativeToolTip": "GitLabAPI_2\\View\\searchTerm.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-27T06:14:49.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "GitLabAPI_2\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:43.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommitController.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\CommitController.cs",
+              "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\CommitController.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\CommitController.cs",
+              "RelativeToolTip": "GitLabAPI_2\\Controllers\\CommitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:43.1Z"
             },
             {
               "$type": "Document",
@@ -121,21 +133,67 @@
               "RelativeDocumentMoniker": "GitLabAPI_2\\Controllers\\BranchController.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\GitLabAPI_2\\Controllers\\BranchController.cs",
               "RelativeToolTip": "GitLabAPI_2\\Controllers\\BranchController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwB4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T06:15:46.111Z"
+              "WhenOpened": "2024-11-27T06:12:41.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BranchService.cs",
               "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\BranchService.cs",
               "RelativeDocumentMoniker": "Services\\BranchService.cs",
               "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\BranchService.cs",
               "RelativeToolTip": "Services\\BranchService.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAhwD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T06:03:46.214Z"
+              "WhenOpened": "2024-11-27T06:12:17.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommitService.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
+              "RelativeDocumentMoniker": "Services\\CommitService.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\CommitService.cs",
+              "RelativeToolTip": "Services\\CommitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:15.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GitLabService.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
+              "RelativeDocumentMoniker": "Services\\GitLabService.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\GitLabService.cs",
+              "RelativeToolTip": "Services\\GitLabService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:11:16.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MergeService.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
+              "RelativeDocumentMoniker": "Services\\MergeService.cs",
+              "ToolTip": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\MergeService.cs",
+              "RelativeToolTip": "Services\\MergeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:11:13.635Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

@@ -1,3 +1,4 @@
+using EntityLayer;
 using Microsoft.OpenApi.Models;
 using Services;
 
@@ -26,6 +27,9 @@ builder.Services.AddSingleton<CsprojReader>();
 builder.Services.AddSingleton<BranchService>();
 builder.Services.AddSingleton<CommitService>();
 builder.Services.AddSingleton<MergeService>();
+builder.Services.AddSingleton<MyService>();
+builder.Services.Configure<GitLabSettings>(builder.Configuration.GetSection("GitLabSettings"));
+
 builder.Services.AddLogging();
 builder.Services.AddHttpClient();
 
@@ -37,12 +41,11 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-// Swagger middleware'ýný ekle
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "GitLab API V1");
-    c.RoutePrefix = string.Empty; // Swagger UI ana sayfada görüntülenecek
+    c.RoutePrefix = string.Empty; 
 });
 
 

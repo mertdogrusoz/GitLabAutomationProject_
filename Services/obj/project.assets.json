@@ -15,6 +15,65 @@
           }
         }
       },
+      "Wodsoft.DotNet40.Runtime/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Wodsoft.DotNet40.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Wodsoft.DotNet40.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Wodsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Wodsoft.Extensions.Options/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Wodsoft.Extensions.DependencyInjection.Abstractions": "1.1.1",
+          "Wodsoft.Extensions.Primitives": "1.1.1"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Extensions.Options.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Extensions.Options.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Wodsoft.Extensions.Primitives/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Wodsoft.DotNet40.Runtime": "1.0.1"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Extensions.Primitives.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Extensions.Primitives.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -58,6 +117,62 @@
         "packageIcon.png"
       ]
     },
+    "Wodsoft.DotNet40.Runtime/1.0.1": {
+      "sha512": "BS9cZ8h/rnU6hfdQ5Hz8r+v/oktpDRGkR6OVUMLFDkU8bHi/lnxr2k6dCYQBZtEXHqnxx88lMAmh9qkzMZsOUA==",
+      "type": "package",
+      "path": "wodsoft.dotnet40.runtime/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Wodsoft.DotNet40.Runtime.dll",
+        "lib/net40/Wodsoft.DotNet40.Runtime.pdb",
+        "lib/net40/Wodsoft.DotNet40.Runtime.xml",
+        "wodsoft.dotnet40.runtime.1.0.1.nupkg.sha512",
+        "wodsoft.dotnet40.runtime.nuspec"
+      ]
+    },
+    "Wodsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
+      "sha512": "S/fY3ayNuPkEn6HbSqGZRhE+Eq3sHgyntaS6QSEsRH3YAG16uRTpjmmzuZyTz5Ef86W24Z2jS8b7qy/HnNnAJg==",
+      "type": "package",
+      "path": "wodsoft.extensions.dependencyinjection.abstractions/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net40/Microsoft.Extensions.DependencyInjection.Abstractions.pdb",
+        "lib/net40/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "wodsoft.extensions.dependencyinjection.abstractions.1.1.1.nupkg.sha512",
+        "wodsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Wodsoft.Extensions.Options/1.1.3": {
+      "sha512": "m794pPw/tYhBgHM4tvgX8GEbWgRhtrRJsqXeHmmFaRUpbCGT3Twkn1DhJiYTNDhYs1kUbO2bWUYMW9Ha0aFOvA==",
+      "type": "package",
+      "path": "wodsoft.extensions.options/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Extensions.Options.dll",
+        "lib/net40/Microsoft.Extensions.Options.pdb",
+        "lib/net40/Microsoft.Extensions.Options.xml",
+        "wodsoft.extensions.options.1.1.3.nupkg.sha512",
+        "wodsoft.extensions.options.nuspec"
+      ]
+    },
+    "Wodsoft.Extensions.Primitives/1.1.1": {
+      "sha512": "1/BvoPHINXfo7wcjNgLBdYiqD5tWixio2R3Giy1jzpj5KmOoFTETK9grrHbHAIenXkr//kCKu7I0y9OC1oyosg==",
+      "type": "package",
+      "path": "wodsoft.extensions.primitives/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Extensions.Primitives.dll",
+        "lib/net40/Microsoft.Extensions.Primitives.pdb",
+        "lib/net40/Microsoft.Extensions.Primitives.xml",
+        "wodsoft.extensions.primitives.1.1.1.nupkg.sha512",
+        "wodsoft.extensions.primitives.nuspec"
+      ]
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -67,7 +182,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityLayer >= 1.0.0",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Wodsoft.Extensions.Options >= 1.1.3"
     ]
   },
   "packageFolders": {
@@ -77,9 +193,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Services\\obj\\",
       "projectStyle": "PackageReference",
@@ -103,8 +219,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -127,6 +243,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Wodsoft.Extensions.Options": {
+            "target": "Package",
+            "version": "[1.1.3, )"
           }
         },
         "imports": [
@@ -148,5 +268,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wodsoft.DotNet40.Runtime 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wodsoft.DotNet40.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wodsoft.Extensions.DependencyInjection.Abstractions 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wodsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wodsoft.Extensions.Options 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wodsoft.Extensions.Options",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wodsoft.Extensions.Primitives 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wodsoft.Extensions.Primitives",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -11,15 +11,21 @@ namespace Services
 {
     public class CommitService
     {
-        private readonly string _accessToken = "glpat-VzAHu_nzzdbQoCsrBNMV"; // GitLab erişim token'ı
+       
         private readonly string _apiUrl = "http://localhost:8080/api/v4";
+        private readonly MyService _myService;
 
+        public CommitService(MyService myService)
+        {
+            _myService = myService;
+        }
 
         public async Task<List<Commites>> GetCommites(int id)
         {
 
             using (var client = new HttpClient())
             {
+                var _accessToken = _myService.GetAccessToken();
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
                 var apiUrl = $"{_apiUrl}/projects/{id}/repository/commits";
                 var response = await client.GetAsync(apiUrl);
@@ -29,7 +35,6 @@ namespace Services
                     return JsonConvert.DeserializeObject<List<Commites>>(json);
 
 
-
                 }
                 else
                 {
@@ -37,6 +42,7 @@ namespace Services
                     return null;
 
                 }
+                
 
 
 
@@ -118,6 +124,7 @@ namespace Services
         {
             using (var client = new HttpClient())
             {
+                var _accessToken = _myService.GetAccessToken();
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
                 var apiUrl = $"{_apiUrl}/projects/{projectId}/repository/commits";
 

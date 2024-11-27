@@ -1,6 +1,7 @@
 ﻿
 using EntityLayer;
 using Newtonsoft.Json;
+using Services;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -8,13 +9,20 @@ using System.Xml.Linq;
 
 public class GitLabService
 {
-    private readonly string _accessToken = "glpat-VzAHu_nzzdbQoCsrBNMV"; // GitLab erişim token'ı
+    private readonly MyService _myService;
     private readonly string _apiUrl = "http://localhost:8080/api/v4/groups";
+
+    public GitLabService(MyService myService)
+    {
+        _myService = myService;
+    }
 
     public async Task<List<GitLabGroup>> GetGroups()
     {
         using (var client = new HttpClient())
         {
+            var _accessToken = _myService.GetAccessToken();
+                 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
             var response = await client.GetAsync(_apiUrl);
 
@@ -32,6 +40,7 @@ public class GitLabService
     {
         using (var client = new HttpClient())
         {
+            var _accessToken = _myService.GetAccessToken();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
 
             var apiUrl = $"{_apiUrl}/{id}/projects";

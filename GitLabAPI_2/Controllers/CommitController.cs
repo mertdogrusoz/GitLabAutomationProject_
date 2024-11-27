@@ -11,6 +11,7 @@ namespace GitLabAPI_2.Controllers
     [Route("api/[controller]")]
     public class CommitController : Controller
     {
+
         private readonly CommitService _commitService;
 
         public CommitController(CommitService commitService)
@@ -32,6 +33,8 @@ namespace GitLabAPI_2.Controllers
                 return NotFound();
             }
             return Ok(commits);
+
+
         }
 
         [HttpPost("project/{projectId}/Createcommit")]
@@ -47,29 +50,8 @@ namespace GitLabAPI_2.Controllers
             {
                 return NotFound("Commit could not be created.");
             }
+
             return Ok(commit);
-        }
-
-        [HttpPost("api/data")]
-        public async Task<IActionResult> MyModel([FromBody] ModelEntity entity)
-        {
-            if(entity == null)
-            {
-                return BadRequest("Geçersiz veri");
-            }
-            
-            return Ok($"Received: {entity.Name},{ entity.Age}");
-
-        }
-        [HttpPost("api/query")]
-        public async Task<IActionResult> MyModelQuery([FromQuery] string Name, [FromQuery] int Age)
-        {
-            if(string.IsNullOrEmpty(Name) || Age <= 0)
-            {
-                Console.WriteLine("Geçersiz parametre");
-
-            }
-            return Ok($"Received name: {Name}, age: {Age}");
         }
        
 

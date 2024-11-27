@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {}
+    "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,12 +69,12 @@
         }
       }
     },
-    "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {
+    "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj",
+        "projectUniqueName": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\Helper.csproj",
+        "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\Helper\\Helper.csproj",
         "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\Helper\\obj\\",
         "projectStyle": "PackageReference",
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yigit\\source\\repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yigit\\Source\\Repos\\GitLabAutomationProject2\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
